@@ -10,5 +10,4 @@ provider "google" {
   project     = "terraform-on-gcp-388710"
   region      = "us-central1"
   zone        = "us-central1-c"
-  credentials = file("C:\\terraform\\credentials.json")
 }
