@@ -7,8 +7,8 @@ terraform {
 }
 
 provider "google" {
-  project     = "terraform-on-gcp-388710"
-  region      = "us-central1"
-  zone        = "us-central1-c"
-  credentials = file("C:\\terraform\\credentials.json")
+  project     = var.project_id
+  region      = var.region
+  zone        = var.zone
+  //credentials = file("C:\\terraform\\credentials.json")
 }
